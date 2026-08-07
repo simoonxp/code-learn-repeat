@@ -10,7 +10,7 @@
 
 ---
 
-## 📋 Sobre o repositório
+## Sobre
 
 Um desafio de **Python ou SQL** por dia, com nível de dificuldade de **1 a 10**.
 A solução de cada desafio é adicionada no dia seguinte.
@@ -45,15 +45,6 @@ Escreva uma query SQL que retorne o **nome** e o **saldo** de todos os clientes 
 |---|---|---|---|---|
 | 002 | 2026-08-07 | SQL | 2/10 | ⏳ |
 | 001 | 2026-08-06 | Python | 3/10 | ✅ |
-
----
-
-## 📝 Como funciona
-
-1. Todo dia um novo desafio é publicado neste README
-2. Tente resolver por conta própria
-3. A solução é adicionada no arquivo do desafio no dia seguinte
-4. Todos os desafios ficam salvos na pasta `/desafios`
 
 ---
 
