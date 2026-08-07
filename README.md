@@ -6,38 +6,36 @@
   <img src="https://img.shields.io/badge/Autor-simoonxp-green?style=for-the-badge" />
 </p>
 
-> *"Primeiro faça funcionar, depois faça certo, depois faça rápido."* — Kent Beck
+> *"A melhor maneira de aprender a programar é programando."* — Richard Stallman
 
 ---
 
 ## 📋 Sobre o repositório
 
 Um desafio de **Python ou SQL** por dia, com nível de dificuldade de **1 a 10**.
-
-Todo dia um novo desafio é publicado aqui. A solução é adicionada no dia seguinte, junto com o próximo desafio.
+A solução de cada desafio é adicionada no dia seguinte.
 
 ---
 
-## 📅 Desafio de Hoje — #001
+## 📅 Desafio de Hoje — #002
 
-**Data:** 2026-08-06
-**Tipo:** Python 🐍
-**Nível:** 3/10
+**Data:** 2026-08-07
+**Tipo:** SQL 🗄️
+**Nível:** 2/10
 
 ### 🎯 Enunciado
 
-Escreva uma função em Python chamada `contar_vogais` que receba uma string e retorne o número de vogais (a, e, i, o, u) presentes nela, ignorando maiúsculas e minúsculas.
+Considere a tabela `clientes`:
 
-**Exemplo:**
-```python
-contar_vogais("Felipe Simon")  # retorna 5
-contar_vogais("Python")        # retorna 1
-contar_vogais("AEIOU")         # retorna 5
-```
+| id | nome | cidade | saldo |
+|---|---|---|---|
+| 1 | Ana | São Paulo | 1500.00 |
+| 2 | Bruno | Rio de Janeiro | 800.00 |
+| 3 | Carla | São Paulo | 2300.00 |
+| 4 | Diego | Belo Horizonte | 450.00 |
+| 5 | Elena | São Paulo | 950.00 |
 
-**Requisitos:**
-- A função deve ignorar maiúsculas/minúsculas
-- Deve funcionar com strings vazias (retornar 0)
+Escreva uma query SQL que retorne o **nome** e o **saldo** de todos os clientes da cidade de **São Paulo**, ordenados pelo saldo do **maior para o menor**.
 
 ---
 
@@ -45,7 +43,8 @@ contar_vogais("AEIOU")         # retorna 5
 
 | # | Data | Tipo | Nível | Resolvido |
 |---|---|---|---|---|
-| 001 | 2026-08-06 | Python | 3/10 | ⏳ |
+| 002 | 2026-08-07 | SQL | 2/10 | ⏳ |
+| 001 | 2026-08-06 | Python | 3/10 | ✅ |
 
 ---
 
